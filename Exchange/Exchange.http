@@ -1,0 +1,42 @@
+@Exchange_HostAddress = http://localhost:5120
+
+GET {{Exchange_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Exchange_HostAddress}}/ExchangeRates
+
+###
+
+GET {{Exchange_HostAddress}}/ExchangeRates/{id}
+
+###
+POST {{Exchange_HostAddress}}/ExchangeRates
+Content-Type: application/json
+
+{
+  "name": "Minecraft",
+  "genre": "Kids and Family",
+  "price": 19.99,
+  "releaseDate": "2011-11-18"
+}
+
+###
+PUT {{Exchange_HostAddress}}/ExchangeRates/1
+
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Street fighter II Turbo",
+    "genre": "Fighting",
+    "price": 9.99,
+    "releaseDate": "1992-07-15"
+}
+
+###
+
+DELETE {{Exchange_HostAddress}}/ExchangeRates/1
+
+
