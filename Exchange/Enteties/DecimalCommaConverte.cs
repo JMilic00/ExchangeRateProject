@@ -1,6 +1,6 @@
-﻿using System;
-using System.Text.Json;
+﻿using System.Globalization;
 using System.Text.Json.Serialization;
+using System.Text.Json;
 
 public class DecimalCommaConverter : JsonConverter<decimal>
 {
@@ -9,15 +9,19 @@ public class DecimalCommaConverter : JsonConverter<decimal>
         string value = reader.GetString();
         if (value != null)
         {
-            // Replace the comma with a dot and convert to decimal
-            value = value.Replace(",", ".");
-            return decimal.Parse(value);
+            // Check if the value contains a comma (as in the provided JSON)
+            if (value.Contains(","))
+            {
+                value = value.Replace(",", ".");
+            }
+
+            return decimal.Parse(value, System.Globalization.CultureInfo.InvariantCulture);  // Always use invariant culture for parsing
         }
         return 0m;
     }
 
     public override void Write(Utf8JsonWriter writer, decimal value, JsonSerializerOptions options)
     {
-        writer.WriteStringValue(value.ToString());
+        writer.WriteStringValue(value.ToString("0.######", CultureInfo.InvariantCulture));  // Ensure invariant formatting
     }
 }

@@ -6,27 +6,19 @@ public class ExchangeRateMappingProfile : Profile
 {
     public ExchangeRateMappingProfile()
     {
-        // Mapping from ExchangeRateEntity to ExchangeRateDto
-        CreateMap<ExchangeRateEntity, ExchangeRateDto>()
-           .ForMember(dest => dest.Date, opt => opt.MapFrom(src => src.Date))
-           .ForMember(dest => dest.BuyRate, opt => opt.MapFrom(src => src.BuyRate))
-           .ForMember(dest => dest.SellRate, opt => opt.MapFrom(src => src.SellRate))
-           .ForMember(dest => dest.MidRate, opt => opt.MapFrom(src => src.MidRate))
-           .ForMember(dest => dest.Currency, opt => opt.MapFrom(src => src.Currency));
+        // Mapping for GET
+        CreateMap<ExchangeRateEntity, ExchangeRateDto>();
+        CreateMap<ApiExchangeRateEntity, ExchangeRateDto>();
 
-        // Map from ExchangeRateDto to ExchangeRateEntity (for database storage)
-        CreateMap<ExchangeRateDto, ExchangeRateEntity>()
-            .ForMember(dest => dest.Date, opt => opt.MapFrom(src => src.Date))
-            .ForMember(dest => dest.BuyRate, opt => opt.MapFrom(src => src.BuyRate))
-            .ForMember(dest => dest.SellRate, opt => opt.MapFrom(src => src.SellRate))
-            .ForMember(dest => dest.MidRate, opt => opt.MapFrom(src => src.MidRate))
-            .ForMember(dest => dest.Currency, opt => opt.MapFrom(src => src.Currency));
+        // Mapping for POST
+        CreateMap<ExchangeRateDto, ExchangeRateEntity>();
+        CreateMap<ExchangeRateDto, ApiExchangeRateEntity>();
 
-        // Explicitly map List<ExchangeRateDto> to List<ExchangeRateEntity>
+        // Explicit List Mappings (for both GET and POST)
         CreateMap<List<ExchangeRateDto>, List<ExchangeRateEntity>>()
             .ConvertUsing((src, dest, context) => src.Select(dto => context.Mapper.Map<ExchangeRateEntity>(dto)).ToList());
-
-        // Explicitly map List<ApiExchangeRateEntity> to List<ExchangeRateDto>
+        CreateMap<List<ExchangeRateDto>, List<ApiExchangeRateEntity>>()
+            .ConvertUsing((src, dest, context) => src.Select(dto => context.Mapper.Map<ApiExchangeRateEntity>(dto)).ToList());
         CreateMap<List<ApiExchangeRateEntity>, List<ExchangeRateDto>>()
             .ConvertUsing((src, dest, context) => src.Select(entity => context.Mapper.Map<ExchangeRateDto>(entity)).ToList());
     }

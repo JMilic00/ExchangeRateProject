@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ExchangeRate.Api.Data
+namespace ExchangeRate.Api.data
 {
     [DbContext(typeof(ExchangeRateContext))]
-    [Migration("20250106211845_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250106233206_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
