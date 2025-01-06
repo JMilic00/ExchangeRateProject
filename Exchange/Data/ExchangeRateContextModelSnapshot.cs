@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ExchangeRate.Api.data
+namespace ExchangeRate.Api.Data
 {
     [DbContext(typeof(ExchangeRateContext))]
     partial class ExchangeRateContextModelSnapshot : ModelSnapshot

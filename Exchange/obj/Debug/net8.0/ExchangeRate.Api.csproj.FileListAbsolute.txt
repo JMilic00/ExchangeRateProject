@@ -175,3 +175,4 @@ C:\Users\Jakov\source\repos\Exchange\Exchange\bin\Debug\net8.0\zh-Hant\Microsoft
 C:\Users\Jakov\source\repos\Exchange\Exchange\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Jakov\source\repos\Exchange\Exchange\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Jakov\source\repos\Exchange\Exchange\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Jakov\source\repos\Exchange\Exchange\obj\Debug\net8.0\ExchangeRate.Api.sourcelink.json

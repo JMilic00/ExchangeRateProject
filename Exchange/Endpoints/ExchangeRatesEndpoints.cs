@@ -1,4 +1,4 @@
-﻿using ExchangeRate.Api.Services;
+﻿
 
 namespace ExchangeRate.Api.Endpoints
 {
@@ -43,7 +43,7 @@ namespace ExchangeRate.Api.Endpoints
                 }
                 catch (Exception ex)
                 {
-                    return Results.BadRequest($"Error: {ex.Message}");
+                    return Results.BadRequest($"Err: {ex.Message}");
                 }
             })
             .WithName("GetExchangeRates");
