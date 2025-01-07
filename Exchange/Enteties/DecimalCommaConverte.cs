@@ -9,19 +9,18 @@ public class DecimalCommaConverter : JsonConverter<decimal>
         string value = reader.GetString();
         if (value != null)
         {
-            // Check if the value contains a comma (as in the provided JSON)
             if (value.Contains(","))
             {
                 value = value.Replace(",", ".");
             }
 
-            return decimal.Parse(value, System.Globalization.CultureInfo.InvariantCulture);  // Always use invariant culture for parsing
+            return decimal.Parse(value, System.Globalization.CultureInfo.InvariantCulture); 
         }
         return 0m;
     }
 
     public override void Write(Utf8JsonWriter writer, decimal value, JsonSerializerOptions options)
     {
-        writer.WriteStringValue(value.ToString("0.######", CultureInfo.InvariantCulture));  // Ensure invariant formatting
+        writer.WriteStringValue(value.ToString("0.######", CultureInfo.InvariantCulture));  
     }
 }

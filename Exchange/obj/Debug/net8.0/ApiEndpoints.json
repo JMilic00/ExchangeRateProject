@@ -29,6 +29,34 @@
   },
   {
     "ContainingType": "ExchangeRate.Api.Endpoints.ExchangeRatesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapExchangeRatesEndpoints\u003Eb__0_2",
+    "RelativePath": "ExchangeRates/averages",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAverageRatesByCurrency"
+  },
+  {
+    "ContainingType": "ExchangeRate.Api.Endpoints.ExchangeRatesEndpoints\u002B\u003C\u003Ec",
     "Method": "\u003CMapExchangeRatesEndpoints\u003Eb__0_0",
     "RelativePath": "ExchangeRates/populate",
     "HttpMethod": "POST",

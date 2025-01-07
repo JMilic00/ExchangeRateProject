@@ -6,15 +6,15 @@ public class ExchangeRateMappingProfile : Profile
 {
     public ExchangeRateMappingProfile()
     {
-        // Mapping for GET
+        // Mapping GET
         CreateMap<ExchangeRateEntity, ExchangeRateDto>();
         CreateMap<ApiExchangeRateEntity, ExchangeRateDto>();
 
-        // Mapping for POST
+        // Mapping POST
         CreateMap<ExchangeRateDto, ExchangeRateEntity>();
         CreateMap<ExchangeRateDto, ApiExchangeRateEntity>();
 
-        // Explicit List Mappings (for both GET and POST)
+        // Explicit List (for GET and POST)
         CreateMap<List<ExchangeRateDto>, List<ExchangeRateEntity>>()
             .ConvertUsing((src, dest, context) => src.Select(dto => context.Mapper.Map<ExchangeRateEntity>(dto)).ToList());
         CreateMap<List<ExchangeRateDto>, List<ApiExchangeRateEntity>>()

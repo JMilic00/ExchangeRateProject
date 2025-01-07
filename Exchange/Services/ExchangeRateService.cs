@@ -34,21 +34,22 @@ public class ExchangeRateService
 
         try
         {
-            // Deserialize the API response
+            // Deserializing response
             var apiExchangeRates = JsonSerializer.Deserialize<List<ApiExchangeRateEntity>>(content);
 
             if (apiExchangeRates == null || !apiExchangeRates.Any())
             {
                 throw new Exception("No exchange rates found in response.");
             }
+            
 
-            // Map ApiExchangeRateEntity to ExchangeRateDto
+            //Mapping external entity to dto and dto to internal entity
             var exchangeRateDtos = _mapper.Map<List<ExchangeRateDto>>(apiExchangeRates);
 
-            // Map ExchangeRateDto to ExchangeRateEntity
+           
             var entities = _mapper.Map<List<ExchangeRateEntity>>(exchangeRateDtos);
 
-            // Store the exchange rates in the database
+            // Storing
             _dbContext.ExchangeRates.AddRange(entities);
             await _dbContext.SaveChangesAsync();
         }
@@ -61,22 +62,21 @@ public class ExchangeRateService
     // Get exchange rates from the database for a date range
     public async Task<List<ExchangeRateDto>> GetExchangeRatesAsync(DateTime startDate, DateTime endDate)
     {
-        // Normalize the start and end date to ignore time component
+        // Normalizing dates
         startDate = startDate.Date;
-        endDate = endDate.Date.AddDays(1).AddTicks(-1); // endDate to just before midnight of the next day
+        endDate = endDate.Date.AddDays(1).AddTicks(-1);
 
         Console.WriteLine($"Fetching data from {startDate} to {endDate}");
 
-        // Fetch the data from the database
+        // Fetching data from the databse
         var entities = await _dbContext.ExchangeRates
             .Where(e => e.Date >= startDate && e.Date <= endDate)
             .ToListAsync();
 
         Console.WriteLine($"Entities fetched: {entities.Count}");
 
-        // Ensure that AutoMapper correctly maps the entities to DTOs
         var exchangeRateDtos = _mapper.Map<List<ExchangeRateDto>>(entities);
 
-        return exchangeRateDtos; // Return the mapped list of DTOs
+        return exchangeRateDtos; 
     }
 }

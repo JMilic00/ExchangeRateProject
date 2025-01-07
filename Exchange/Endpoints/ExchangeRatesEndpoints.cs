@@ -8,7 +8,7 @@ namespace ExchangeRate.Api.Endpoints
         {
             var group = app.MapGroup("ExchangeRates");
 
-            // Endpoint to fetch and store exchange rates in the database
+            // Endpoint to fetch and store
             group.MapPost("/populate", async (DateTime startDate, DateTime endDate, ExchangeRateService service) =>
             {
                 try
@@ -24,15 +24,15 @@ namespace ExchangeRate.Api.Endpoints
             })
             .WithName("PopulateExchangeRates");
 
-            // Endpoint to get exchange rates for a specific date range
+            // Endpoint for fetching all the data
             group.MapGet("/", async (DateTime startDate, DateTime endDate, ExchangeRateService service) =>
             {
                 try
                 {
-                    // Fetch exchange rates directly as ExchangeRateDto
+                    // Fetching
                     var rates = await service.GetExchangeRatesAsync(startDate, endDate);
 
-                    // Calculate the average mid exchange rate
+                    // Calculating the average
                     var averageRate = rates.Any() ? rates.Average(r => r.MidRate) : 0;
 
                     return Results.Ok(new
@@ -47,6 +47,41 @@ namespace ExchangeRate.Api.Endpoints
                 }
             })
             .WithName("GetExchangeRates");
+
+            group.MapGet("/averages", async (DateTime startDate, DateTime endDate, ExchangeRateService service) =>
+            {
+                try
+                {
+                    var rates = await service.GetExchangeRatesAsync(startDate, endDate);
+
+                    if (!rates.Any())
+                    {
+                        return Results.Ok("No exchange rates found for the given period.");
+                    }
+
+                    // Grouping currency and calculating the average for each
+                    var averageRatesByCurrency = rates
+                        .GroupBy(r => r.Currency)
+                        .Select(g => new
+                        {
+                            Currency = g.Key,
+                            AverageMidRate = g.Average(r => r.MidRate)
+                        })
+                        .ToList();
+
+                    return Results.Ok(new
+                    {
+                        StartDate = startDate,
+                        EndDate = endDate,
+                        AverageRates = averageRatesByCurrency
+                    });
+                }
+                catch (Exception ex)
+                {
+                    return Results.BadRequest($"Err: {ex.Message}");
+                }
+            })
+            .WithName("GetAverageRatesByCurrency");
 
             return group;
         }
