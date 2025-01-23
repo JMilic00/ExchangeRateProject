@@ -1,6 +1,7 @@
-﻿using System.Text.Json.Serialization;
+﻿using ExchangeRate.Domain.Contracts.Persistance;
+using System.Text.Json.Serialization;
 
-public class ExchangeRateEntity
+public class ExchangeRateEntity : IHasDate
 {
     public int Id { get; set; }
     [JsonPropertyName("broj_tecajnice")]

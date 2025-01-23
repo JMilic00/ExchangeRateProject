@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ExchangeRate.Infrastructure.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class, IHasDate
     {
         private readonly ExchangeRateDbContext _dbContext;
         public GenericRepository(ExchangeRateDbContext dbContext)
@@ -22,9 +22,11 @@ namespace ExchangeRate.Infrastructure.Repositories
             return entity;
         }
 
-        public Task<IReadOnlyList<T>> Get(DateTime StartDate, DateTime EndDate)
+        public async Task<IReadOnlyList<T>> Get(DateTime startDate, DateTime endDate)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Set<T>()
+            .Where(x => EF.Property<DateTime>(x, "Date") >= startDate && EF.Property<DateTime>(x, "Date") <= endDate)
+            .ToListAsync();
         }
 
         public async Task<IReadOnlyList<T>> GetAll()

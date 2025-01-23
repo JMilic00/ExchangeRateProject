@@ -47,8 +47,7 @@ namespace ExchangeRate.Domain.Features.ExchngeRates.Handlers.Commands
             var apiResponseContent = await response.Content.ReadAsStringAsync();
             //var exchangeRateEntities = JsonSerializer.Deserialize<List<ExchangeRateEntity>>(apiResponseContent);
 
-            var exchangeRateDtos = JsonSerializer.Deserialize<List<ExchangeRateDto>>(apiResponseContent);
-            var exchangeRateEntities = _mapper.Map<List<ExchangeRateEntity>>(exchangeRateDtos);
+            var exchangeRateEntities = JsonSerializer.Deserialize<List<ExchangeRateEntity>>(apiResponseContent);
 
 
             foreach (var entity in exchangeRateEntities)

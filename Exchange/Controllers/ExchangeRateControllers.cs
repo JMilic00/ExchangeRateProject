@@ -24,15 +24,13 @@ namespace ExchangeRate.Api.Controllers
             var leaveTypes = await _mediator.Send(new GetExchangeRateRequest());
             return Ok(leaveTypes);
         }
-        /*
         [HttpGet("ByDate")]
-        public async Task<ActionResult<List<ExchangeRateDto>>> GetByDate([FromQuery] DateTime StartDate, [FromQuery] DateTime EndDate)
+        public async Task<ActionResult<List<ExchangeRateDto>>> GetByDate([FromQuery] DateTime startDate, [FromQuery] DateTime endDate)
         {
-            var query = new GetExchangeRateRequestDate { StartDate = StartDate, EndDate = EndDate };
+            var query = new GetExchangeRateRequestDate { StartDate = startDate, EndDate = endDate };
             var exchangeRates = await _mediator.Send(query);
             return Ok(exchangeRates);
         }
-        */
         // POST api/<ExchangeRateController>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] CreateExchangeRateDto exchangeRate)

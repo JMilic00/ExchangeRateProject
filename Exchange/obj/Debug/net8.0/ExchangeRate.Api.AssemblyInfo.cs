@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExchangeRate.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b88b9d6401172c16141fd7431e0314e77726fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55955ce41ba931959a24ca064ae40c3637e3538c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExchangeRate.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExchangeRate.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

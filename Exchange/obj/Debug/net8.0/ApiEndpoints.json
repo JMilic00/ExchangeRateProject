@@ -34,5 +34,36 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExchangeRate.Api.Controllers.ExchangeRateController",
+    "Method": "GetByDate",
+    "RelativePath": "api/ExchangeRate/ByDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ExchangeRate.Domain.Dtos.ExchangeRateDto.ExchangeRateDto, ExchangeRate.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExchangeRate.Domain.Contracts.Persistance
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : class, IHasDate
     {
         Task<IReadOnlyList<T>> Get(DateTime StartDate, DateTime EndDate);
 
