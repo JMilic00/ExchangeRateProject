@@ -3,67 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Jakov\\source\\repos\\Exchange\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\mapping\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\mapping\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\features\\exchngerates\\handlers\\commands\\createexchangeratecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\features\\exchngerates\\handlers\\commands\\createexchangeratecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\mapping\\exchangerateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\mapping\\exchangerateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\features\\exchngerates\\requests\\commands\\createexchangeratecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\features\\exchngerates\\requests\\commands\\createexchangeratecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\enteties\\decimalcommaconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\enteties\\decimalcommaconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\features\\exchngerates\\requests\\queries\\getexchangeraterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\features\\exchngerates\\requests\\queries\\getexchangeraterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\enteties\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\enteties\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\dtos\\exchangeratedto\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\dtos\\exchangeratedto\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\enteties\\apiexchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\enteties\\apiexchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\dtos\\exchangeratedto\\createexchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\dtos\\exchangeratedto\\createexchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\endpoints\\exchangeratesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\endpoints\\exchangeratesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\enteties\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\enteties\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\dtos\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\dtos\\exchangeratedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\enteties\\decimalcommaconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\enteties\\decimalcommaconverte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\data\\exchangeratecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\data\\exchangeratecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|solutionrelative:exchangerate.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.infrastructure\\exchangeratedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|solutionrelative:exchangerate.infrastructure\\exchangeratedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\features\\exchngerates\\handlers\\queries\\getexchangeraterequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\features\\exchngerates\\handlers\\queries\\getexchangeraterequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\dtos\\common\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\dtos\\common\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.infrastructure\\infrastructureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|solutionrelative:exchangerate.infrastructure\\infrastructureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\contracts\\persistance\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\contracts\\persistance\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\contracts\\persistance\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\contracts\\persistance\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\controllers\\exchangeratecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\controllers\\exchangeratecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\data\\exchangeratecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\data\\exchangeratecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\exchange.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\exchange.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.domain\\domainservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938AAED-7FC6-479D-A848-9BAB49956D6B}|ExchangeRate.Domain\\ExchangeRate.Domain.csproj|solutionrelative:exchangerate.domain\\domainservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\20250106175315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exchange\\Data\\20250106175315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchangerate.infrastructure\\repositories\\exchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBCA7027-E9D2-4BA7-9CF3-F7DF503B0B8E}|ExchangeRate.Infrastructure\\ExchangeRate.Infrastructure.csproj|solutionrelative:exchangerate.infrastructure\\repositories\\exchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakov\\Downloads\\response_1736176465518.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\exchangerate.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\exchangerate.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|c:\\users\\jakov\\source\\repos\\exchange\\exchange\\data\\20250106233206_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC12ED8E-73EB-4CFD-9AD3-5B041F89E374}|Exchange\\ExchangeRate.Api.csproj|solutionrelative:exchange\\data\\20250106233206_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,208 +94,280 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateExchangeRateCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Commands\\CreateExchangeRateCommandHandler.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Commands\\CreateExchangeRateCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Commands\\CreateExchangeRateCommandHandler.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Commands\\CreateExchangeRateCommandHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA3wC8AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:51:57.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ExchangeRatesEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Endpoints\\ExchangeRatesEndpoints.cs",
-              "RelativeDocumentMoniker": "Exchange\\Endpoints\\ExchangeRatesEndpoints.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Endpoints\\ExchangeRatesEndpoints.cs",
-              "RelativeToolTip": "Exchange\\Endpoints\\ExchangeRatesEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:59:37.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DecimalCommaConverte.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\DecimalCommaConverte.cs",
-              "RelativeDocumentMoniker": "Exchange\\Enteties\\DecimalCommaConverte.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\DecimalCommaConverte.cs",
-              "RelativeToolTip": "Exchange\\Enteties\\DecimalCommaConverte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:41:23.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExchangeRateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Dtos\\ExchangeRateDto.cs",
-              "RelativeDocumentMoniker": "Exchange\\Dtos\\ExchangeRateDto.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Dtos\\ExchangeRateDto.cs",
-              "RelativeToolTip": "Exchange\\Dtos\\ExchangeRateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:19:47.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiExchangeRateEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\ApiExchangeRateEntity.cs",
-              "RelativeDocumentMoniker": "Exchange\\Enteties\\ApiExchangeRateEntity.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\ApiExchangeRateEntity.cs",
-              "RelativeToolTip": "Exchange\\Enteties\\ApiExchangeRateEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:27:24.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ExchangeRateEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\ExchangeRateEntity.cs",
-              "RelativeDocumentMoniker": "Exchange\\Enteties\\ExchangeRateEntity.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Enteties\\ExchangeRateEntity.cs",
-              "RelativeToolTip": "Exchange\\Enteties\\ExchangeRateEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Enteties\\ExchangeRateEntity.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Enteties\\ExchangeRateEntity.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Enteties\\ExchangeRateEntity.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Enteties\\ExchangeRateEntity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:00:13.17Z",
+              "WhenOpened": "2025-01-23T13:11:13.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExchangeRateProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Mapping\\ExchangeRateProfile.cs",
-              "RelativeDocumentMoniker": "Exchange\\Mapping\\ExchangeRateProfile.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Mapping\\ExchangeRateProfile.cs",
-              "RelativeToolTip": "Exchange\\Mapping\\ExchangeRateProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Title": "CreateExchangeRateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Commands\\CreateExchangeRateCommand.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Commands\\CreateExchangeRateCommand.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Commands\\CreateExchangeRateCommand.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Commands\\CreateExchangeRateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:00:08.755Z",
+              "WhenOpened": "2025-01-23T12:52:28.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExchangeRateService.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Services\\ExchangeRateService.cs",
-              "RelativeDocumentMoniker": "Exchange\\Services\\ExchangeRateService.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Services\\ExchangeRateService.cs",
-              "RelativeToolTip": "Exchange\\Services\\ExchangeRateService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwE8AAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetExchangeRateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Queries\\GetExchangeRateRequest.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Queries\\GetExchangeRateRequest.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Queries\\GetExchangeRateRequest.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Features\\ExchngeRates\\Requests\\Queries\\GetExchangeRateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:26:50.638Z",
+              "WhenOpened": "2025-01-23T12:38:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateExchangeRateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\CreateExchangeRateDto.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\CreateExchangeRateDto.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\CreateExchangeRateDto.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\CreateExchangeRateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:51:13.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExchangeRateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\ExchangeRateDto.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\ExchangeRateDto.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\ExchangeRateDto.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Dtos\\ExchangeRateDto\\ExchangeRateDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:51:12.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Program.cs",
-              "RelativeDocumentMoniker": "Exchange\\Program.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Program.cs",
-              "RelativeToolTip": "Exchange\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Mapping\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Mapping\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Mapping\\MappingProfiles.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Mapping\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:59:57.621Z",
+              "WhenOpened": "2025-01-23T13:14:27.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DecimalCommaConverte.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Enteties\\DecimalCommaConverte.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Enteties\\DecimalCommaConverte.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Enteties\\DecimalCommaConverte.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Enteties\\DecimalCommaConverte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:11:14.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ExchangeRateContext.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\ExchangeRateContext.cs",
-              "RelativeDocumentMoniker": "Exchange\\Data\\ExchangeRateContext.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\ExchangeRateContext.cs",
-              "RelativeToolTip": "Exchange\\Data\\ExchangeRateContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "ExchangeRate.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:09:08.922Z",
+              "WhenOpened": "2025-01-23T12:37:00.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ExchangeRateDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\ExchangeRateDbContext.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Infrastructure\\ExchangeRateDbContext.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\ExchangeRateDbContext.cs",
+              "RelativeToolTip": "ExchangeRate.Infrastructure\\ExchangeRateDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:14:44.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetExchangeRateRequestHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Queries\\GetExchangeRateRequestHandler.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Queries\\GetExchangeRateRequestHandler.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Queries\\GetExchangeRateRequestHandler.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Features\\ExchngeRates\\Handlers\\Queries\\GetExchangeRateRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:38:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\Common\\BaseDto.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Dtos\\Common\\BaseDto.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Dtos\\Common\\BaseDto.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Dtos\\Common\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:11:16.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InfrastructureServicesRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "RelativeToolTip": "ExchangeRate.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:14:45.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Contracts\\Persistance\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Contracts\\Persistance\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Contracts\\Persistance\\IGenericRepository.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Contracts\\Persistance\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:36:57.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IExchangeRateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Contracts\\Persistance\\IExchangeRateRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\Contracts\\Persistance\\IExchangeRateRepository.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\Contracts\\Persistance\\IExchangeRateRepository.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\Contracts\\Persistance\\IExchangeRateRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:11:18.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExchangeRateControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Controllers\\ExchangeRateControllers.cs",
+              "RelativeDocumentMoniker": "Exchange\\Controllers\\ExchangeRateControllers.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Controllers\\ExchangeRateControllers.cs",
+              "RelativeToolTip": "Exchange\\Controllers\\ExchangeRateControllers.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:50:41.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\appsettings.json",
               "RelativeDocumentMoniker": "Exchange\\appsettings.json",
               "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\appsettings.json",
               "RelativeToolTip": "Exchange\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T14:58:17.329Z"
+              "WhenOpened": "2025-01-23T13:18:04.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ExchangeRateContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\ExchangeRateContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Exchange\\Data\\ExchangeRateContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\ExchangeRateContextModelSnapshot.cs",
-              "RelativeToolTip": "Exchange\\Data\\ExchangeRateContextModelSnapshot.cs",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Program.cs",
+              "RelativeDocumentMoniker": "Exchange\\Program.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Program.cs",
+              "RelativeToolTip": "Exchange\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:39:39.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DomainServicesRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\DomainServicesRegistration.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Domain\\DomainServicesRegistration.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Domain\\DomainServicesRegistration.cs",
+              "RelativeToolTip": "ExchangeRate.Domain\\DomainServicesRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T13:16:44.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExchangeRateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Repositories\\ExchangeRateRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Infrastructure\\Repositories\\ExchangeRateRepository.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Repositories\\ExchangeRateRepository.cs",
+              "RelativeToolTip": "ExchangeRate.Infrastructure\\Repositories\\ExchangeRateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:53:08.226Z"
+              "WhenOpened": "2025-01-23T12:50:21.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250106233206_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\20250106233206_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Exchange\\Data\\20250106233206_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\20250106233206_InitialMigration.cs",
-              "RelativeToolTip": "Exchange\\Data\\20250106233206_InitialMigration.cs",
+              "DocumentIndex": 20,
+              "Title": "20250123131828_2.cs",
+              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs",
+              "RelativeDocumentMoniker": "ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs",
+              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs",
+              "RelativeToolTip": "ExchangeRate.Infrastructure\\Migrations\\20250123131828_2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:32:07.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Exchange.http",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Exchange.http",
-              "RelativeDocumentMoniker": "Exchange\\Exchange.http",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Exchange.http",
-              "RelativeToolTip": "Exchange\\Exchange.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-06T14:58:16.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250106175315_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\20250106175315_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Exchange\\Data\\20250106175315_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\Data\\20250106175315_InitialCreate.cs",
-              "RelativeToolTip": "Exchange\\Data\\20250106175315_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T17:53:15.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "response_1736176465518.json",
-              "DocumentMoniker": "C:\\Users\\Jakov\\Downloads\\response_1736176465518.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\response_1736176465518.json",
-              "ToolTip": "C:\\Users\\Jakov\\Downloads\\response_1736176465518.json",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\response_1736176465518.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-06T15:15:22.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ExchangeRate.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\ExchangeRate.Api.csproj",
-              "RelativeDocumentMoniker": "Exchange\\ExchangeRate.Api.csproj",
-              "ToolTip": "C:\\Users\\Jakov\\source\\repos\\Exchange\\Exchange\\ExchangeRate.Api.csproj",
-              "RelativeToolTip": "Exchange\\ExchangeRate.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-05T20:27:19.606Z"
+              "WhenOpened": "2025-01-23T13:18:28.369Z",
+              "EditorCaption": ""
             }
           ]
         }

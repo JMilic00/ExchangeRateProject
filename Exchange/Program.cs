@@ -1,5 +1,6 @@
-using ExchangeRate.Api.Data;
-using ExchangeRate.Api.Endpoints;
+using ExchangeRate.Domain;
+using ExchangeRate.Infrastructure;
+using Microsoft.OpenApi.Models;
 
 public class Program
 {
@@ -7,26 +8,28 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        
-        var connString = builder.Configuration.GetConnectionString("ExchangeRateConnection");
+
+        builder.Services.ConfigureInfrastructureServices(builder.Configuration);
+        builder.Services.ConfigureDomainServices();
         builder.Services.AddControllers();
-
-       
-        builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddSqlServer<ExchangeRateContext>(connString);
         builder.Services.AddHttpClient();
-        builder.Services.AddScoped<ExchangeRateService>();
 
-      
-        builder.Services.AddAutoMapper(typeof(ExchangeRateMappingProfile));
+
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "HR Leave Management API",
+                Version = "v1"
+            });
+        });
+
 
         var app = builder.Build();
 
-      
-        app.MapExchangeRatesEndpoints();
-
-       
+ 
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();

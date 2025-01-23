@@ -1,0 +1,191 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]pp[Dd]ata/
+bin/
+obj/
+[Ll]og/
+[Ll]ogs/
+
+# Uncomment if you have these generated files in your working directory
+#*.vs/
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.userprefs
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Mac
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Python virtual environments
+env/
+venv/
+
+# Node.js dependencies
+node_modules/
+
+# Microsoft Office temporary files
+~$*
+
+# Web server files
+wwwroot/
+
+# Publish output
+publish/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Coverage Tooling
+coverage/
+*.coverage
+*.coveragexml
+*.sonarqube/
+*.dotCover
+dotCover.html
+
+# Cake - Uncomment if you are using Cake
+# tools/**/*
+# !tools/packages.config
+
+# NCrunch
+.ncrunch*
+*.ncrunchsolution
+
+# Prettier
+.prettiercache
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+dist/
+
+# .NET Core
+!**/libman.json
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+*.log
+
+# npm debug log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+*.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
+# Rider project files
+.idea/
+
+# Local History
+.localhistory/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# dotenv environment variables file
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Kubernetes
+*.yaml
+*.yml
+
+# SQL dumps
+*.sql
+
+# IDE specific settings
+.vscode/
+.idea/
+
+# Bower
+bower_components
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# By default, NuGet restores packages into the `.nuget` folder. Exclude this directory:
+*.nuget/
+
+# Paket
+.paket/
+paket-files/
+
+# Code coverage reports
+coverage/
+
+# Azure DevOps Test Results
+TestResults/
